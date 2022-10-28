@@ -1,0 +1,20 @@
+body {
+    margin: 0%;
+    width: 100%;
+    margin-bottom: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 165%;
+    overflow: overlay;
+
+}
+header {
+    max-width: 40rem;
+    margin: 3.5rem auto 0;
+    float: none;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.09rem;
+    line-height: 180%;
+    width: 100%;
+
+}
