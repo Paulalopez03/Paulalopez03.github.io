@@ -63,74 +63,11 @@ header {
   transform: rotate(-1.5deg);
 }
 
-/*letras header */
-
-/*galeria */
-
-.pagina {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: flex-start;
-  justify-content: center;
+#ransomizer a {
+  text-decoration: none;
 }
 
-.pagina img {
-  object-fit: cover;
-  width: 900px;
-  max-width: 32vw;
-}
-
-.obras {
-  display: flex;
-  height: 490px;
-}
-
-/*galeria */
-
-/*efectos */
-.container {
-  position: relative;
-  filter: blur(1px);
-
-}
-
-.image {
-  display: block;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  transition: .5s ease;
-}
-
-.container:hover {
-  filter: blur(0px);
-}
-
-.overlay:hover {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: 700;
-  text-align: center;
-
-}
-
-/*efectos */
+/*abre deco letras header */
 .d {
   background-color: #FE6996;
   color: #020001;
@@ -215,11 +152,10 @@ header {
 .d2 {
   background-color: #F89A53;
   color: #000000;
-  font-family: 
-  Verdana
-  ,
-  Geneva,
-  sans-serif;
+  font-family:
+    Verdana,
+    Geneva,
+    sans-serif;
   font-size: 90%;
   font-weight: bold;
   background-image: url(https://i.imgur.com/ruhP2kd.png);
@@ -236,3 +172,227 @@ header {
 .d2:hover {
   background-color: #538df8;
 }
+
+.h {
+  background-color: #F89A53;
+  color: #000000;
+  font-family:
+    Palatino Linotype, Book Antiqua, Palatino, serif;
+  font-size: 110%;
+  font-weight: bold;
+  font-style: italic;
+  box-shadow: -1px -1px 2px #333;
+  text-transform: lowercase;
+  line-height: 75%;
+  margin: 0.1em;
+  padding: 0.3em;
+  vertical-align: 0.1em;
+}
+
+.h:hover {
+  background-color: #53bcf8;
+}
+
+.o {
+
+  background-color: #EC1846;
+  color: #ffffff;
+  font-family:
+    Courier,
+    monospace;
+  font-size: 100%;
+  font-weight: bolder;
+  background-image: url(https://i.imgur.com/ruhP2kd.png);
+  background-position: center bottom;
+  font-style: italic;
+  box-shadow: 1px 1px 2px #333;
+  text-transform: lowercase;
+  line-height: 75%;
+  margin: 0.1em;
+  padding: 0.3em;
+  vertical-align: baseline;
+}
+
+.o:hover {
+  background-color: #97ec18;
+}
+
+.c {
+
+  background-color: #F3CB36;
+  color: #000000;
+  font-family:
+    Georgia,
+    serif;
+  font-size: 100%;
+  box-shadow: -1px 1px 2px #333;
+  text-transform: uppercase;
+  line-height: 100%;
+  margin: 0.1em;
+  padding: 0.3em;
+  vertical-align: baseline;
+}
+
+.c:hover {
+  background-color: #7b36f3;
+}
+
+.k {
+
+  background-color: #4263AE;
+  color: #ffffff;
+  font-family:
+    Verdana,
+    Geneva,
+    sans-serif;
+  font-size: 90%;
+  font-weight: bold;
+  background-image: url(https://i.imgur.com/1wxqouY.png);
+  background-position: left bottom;
+  box-shadow: 1px -1px 2px #333;
+  text-transform: uppercase;
+  line-height: 100%;
+  margin: 0.1em;
+  padding: 0.3em;
+  vertical-align: -0.1em;
+}
+
+.k:hover {
+  background-color: #dbbc0a;
+}
+
+.n {
+  background-color: #019ECD;
+  color: #ffffff;
+  font-family:
+    Courier,
+    monospace;
+  font-size: 110%;
+  font-weight: bold;
+  background-image: url(https://i.imgur.com/pwrAKPo.png);
+  background-position: center top;
+  font-style: italic;
+  box-shadow: -1px -1px 2px #333;
+  line-height: 100%;
+  margin: 0.1em;
+  padding: 0.3em;
+  vertical-align: baseline;
+}
+
+.n:hover {
+  background-color: #cd7801;
+  ;
+}
+
+.e {
+  background-color: #4263AE;
+  color: #ffffff;
+  font-family:
+    Courier,
+    monospace;
+  font-size: 110%;
+  font-weight: bold;
+  box-shadow: 1px 1px 2px #333;
+  text-transform: lowercase;
+  line-height: 100%;
+  margin: 0.1em;
+  padding: 0.1em;
+  vertical-align: baseline;
+}
+
+.e:hover {
+  background-color: #d64b18;
+}
+
+.y {
+  background-color: #F89A53;
+  color: #000000;
+  font-family:
+    Courier,
+    monospace;
+  font-size: 90%;
+  font-weight: lighter;
+  background-image: url(https://i.imgur.com/IcV8Q3G.png);
+  background-position: right bottom;
+  font-style: italic;
+  box-shadow: 1px 1px 2px #333;
+  text-transform: uppercase;
+  line-height: 125%;
+  margin: 0.1em;
+  padding: 0.1em;
+  vertical-align: baseline;
+}
+
+.y:hover {
+  background-color: #535bf8;
+}
+
+/*cierra deco letras header */
+/*letras header */
+
+/*galeria */
+
+.pagina {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.pagina img {
+  object-fit: cover;
+  width: 900px;
+  max-width: 32vw;
+}
+
+.obras {
+  display: flex;
+  height: 490px;
+}
+
+/*galeria */
+
+/*efectos */
+.container {
+  position: relative;
+  filter: blur(1px);
+
+}
+
+.image {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.container:hover {
+  filter: blur(0px);
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  text-align: center;
+
+}
+
+/*efectos */
