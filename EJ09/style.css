@@ -63,7 +63,9 @@ header {
   transform: rotate(-1.5deg);
 }
 
-
+a:-webkit-any-link{
+  text-decoration: none;
+}
 
 /*abre deco letras header */
 .d {
