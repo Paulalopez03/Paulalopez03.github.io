@@ -38,7 +38,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    background-color: rgba(240, 248, 255, 0.8);
+    background-color: rgba(21, 124, 213, 0.8);
 
     border-radius: 1.5vmax 1.5vmax 0 0;
     padding-top: 1%;
