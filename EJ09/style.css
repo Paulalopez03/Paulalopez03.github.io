@@ -238,7 +238,6 @@ header {
 }
 
 .k {
-
   background-color: #4263AE;
   color: #ffffff;
   font-family:
@@ -281,7 +280,7 @@ header {
 
 .n:hover {
   background-color: #cd7801;
-  ;
+  
 }
 
 .e {
@@ -335,20 +334,22 @@ header {
 .pagina {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  align-content: flex-start;
+
   justify-content: center;
 }
 
 .pagina img {
   object-fit: cover;
-  width: 900px;
-  max-width: 32vw;
+  width: 500px;
+  
+height: 500px;
+ flex-wrap: wrap;
 }
 
 .obras {
   display: flex;
   height: 490px;
+
 }
 
 /*galeria */
