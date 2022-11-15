@@ -1,28 +1,16 @@
 body {
     margin: 0%;
     width: 100%;
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 165%;
     overflow: overlay;
     background-image: url(img/a-100.jpg);
-    background-size: auto 100vh ;
+    background-size: auto 101vh;
     background-repeat: no-repeat;
-    overflow: hidden;
 
 }
 
-header {
-    max-width: 40rem;
-    margin: 3.5rem auto 0;
-    float: none;
-    font-weight: normal;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.09rem;
-    line-height: 180%;
-    width: 100%;
 
-}
 
 
 
@@ -116,12 +104,58 @@ a {
 h4 {
     text-align: center;
     margin: 4px;
-    font-weight: 100;
+    font-weight: 500;
     color: azure;
-
+    font-size: 2vmin
 }
 
 img .vector {
     width: 100%;
+
+}
+
+.barrariba {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-bottom: 1%;
+
+
+}
+
+.unoarr {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: rgba(240, 248, 255, 0.8);
+
+
+}
+
+.dosarr {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: rgba(240, 248, 255, 0.8);
+
+
+}
+
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 4%;
+    text-align: center;
+
+
+}
+
+.loguito {
+    width: 2%;
+    padding-left: 1%;
+
 
 }
