@@ -6,6 +6,7 @@ body {
     line-height: 165%;
     overflow: overlay;
     background-image: url(img/a-100.jpg);
+    background-size: auto 100vh ;
     background-repeat: no-repeat;
 
 }
@@ -44,22 +45,26 @@ header {
     width: 15%;
 }
 
-.dos{
-    width: 70%;
+.dos {
+    width: 60%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    background-color: rgba(240, 248, 255,0.8);
-  
+    background-color: rgba(240, 248, 255, 0.8);
+
     border-radius: 1.5vmax 1.5vmax 0 0;
     padding-top: 1%;
     padding-bottom: 1%;
 }
 
 .uno {
-   width: 15%;
+    width: 15%;
 }
-.dib{width: 7%;}
+
+.dib {
+    width: 7%;
+}
+
 .cosas {
     display: flex;
     flex-wrap: nowrap;
@@ -67,6 +72,7 @@ header {
     list-style-type: none;
 
 }
+
 .dosdos {
     display: flex;
     flex-wrap: nowrap;
@@ -74,40 +80,47 @@ header {
     justify-content: space-around;
 
 }
+
 .unouno {
-   width: 50%;
+    width: 50%;
 
 
 }
+
 .carpeta {
     width: 20%;
- }
- a {
-  text-decoration: none;
+}
 
- }
- .hola {
+a {
+    text-decoration: none;
+
+}
+
+.hola {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
     justify-content: space-around;
- 
- }
- .dosdosdos {
+
+}
+
+.dosdosdos {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
- 
- }
- h4 {
-   text-align: center;
-   margin: 4px;
-   font-weight: 100;
-  color: azure;
- 
- }
+
+}
+
+h4 {
+    text-align: center;
+    margin: 4px;
+    font-weight: 100;
+    color: azure;
+
+}
+
 img .vector {
-   width: 100%;
-  
-  }
+    width: 100%;
+
+}
