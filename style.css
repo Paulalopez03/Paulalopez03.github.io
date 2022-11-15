@@ -1,12 +1,15 @@
 body {
     margin: 0%;
     width: 100%;
-    margin-bottom: 200px;
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 165%;
     overflow: overlay;
+    background-image: url(img/a-100.jpg);
+    background-repeat: no-repeat;
 
 }
+
 header {
     max-width: 40rem;
     margin: 3.5rem auto 0;
@@ -18,3 +21,89 @@ header {
     width: 100%;
 
 }
+
+
+
+
+
+
+.barra {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.tres {
+    width: 15%;
+}
+
+.dos{
+    width: 70%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: rgba(240, 248, 255,0.8);
+  
+    border-radius: 1.5vmax 1.5vmax 0 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.uno {
+   width: 15%;
+}
+.dib{width: 7%;}
+.cosas {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+.dosdos {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 50%;
+    justify-content: space-around;
+
+}
+.unouno {
+   width: 50%;
+
+
+}
+.carpeta {
+    width: 20%;
+ }
+ a {
+  text-decoration: none;
+
+ }
+ .hola {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;
+ 
+ }
+ .dosdosdos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+ 
+ }
+ h4 {
+   text-align: center;
+   margin: 4px;
+   font-weight: 100;
+  color: azure;
+ 
+ }
