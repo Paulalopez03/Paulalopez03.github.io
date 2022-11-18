@@ -1,0 +1,106 @@
+body {
+    margin: 0%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 165%;
+    overflow: hidden;
+    background-image: url(img/fondo-1400x860.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+
+.barra {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    padding-right: 5%;
+    width: 50%;
+    align-items: baseline;
+
+}
+
+/* .opciones {
+
+} */
+
+.opciones h6 {
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    font-weight: 400;
+    font-size: small;
+    color: rgb(235, 235, 235);
+    align-items: baseline;
+
+}
+
+.logoadobe {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-right: 3%;
+    width: 50%;
+}
+
+.etiqueta {
+    padding-left: 15%;
+    width: 8%;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 20%;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.icono {
+
+    width: 13%;
+    padding-right: 6%;
+
+
+
+}
+
+.hamburguesa {
+
+    width: 100%;
+    padding-right: 6%;
+
+
+
+
+}
+
+.buscar {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 20%;
+    align-items: center;
+    justify-content: flex-end;
+
+
+
+}
+
+.iniciosesion {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 30%;
+    align-items: center;
+    justify-content: flex-end;
+
+
+
+}
