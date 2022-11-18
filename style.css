@@ -76,6 +76,7 @@ body {
 
 .carpeta {
     width: 20%;
+    position: relative;
 }
 
 a {
@@ -99,6 +100,27 @@ a {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
 h4 {
     text-align: center;
     margin: 4px;
@@ -108,9 +130,62 @@ h4 {
 }
 
 img .vector {
+  
     width: 100%;
 
+
 }
+
+
+/* .vector {
+    display: inline-block;
+  }
+  
+  .vector img {
+    height: 250px;
+  }
+  
+  .vector .abi {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  
+  .vector:hover .abi {
+    display: inline;
+  } */
+
+
+
+
+  .vector {
+    position: relative;
+    display: inline-block;
+    width:  100%;
+  }
+  
+  .abiertos img {
+    width:  100%;
+  }
+  
+  .vector .cerrada {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  
+  .vector:hover .cerrada {
+    display: inline;
+  }
+
+
+  .vector:hover .abiertos{
+   opacity: 0;
+  }
 
 .barrariba {
     width: 100%;
