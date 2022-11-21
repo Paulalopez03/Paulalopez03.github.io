@@ -5,17 +5,10 @@ body {
     line-height: 165%;
     overflow: overlay;
     background-image: url(img/a-100.jpg);
-    background-size: 100%;
+    background-size: auto 101vh;
     background-repeat: no-repeat;
 
 }
-
-
-
-
-
-
-
 
 .barra {
     display: flex;
@@ -111,7 +104,7 @@ a {
 
 
 
-  
+
 
 
 
@@ -130,7 +123,7 @@ h4 {
 }
 
 img .vector {
-  
+
     width: 100%;
 
 
@@ -160,32 +153,32 @@ img .vector {
 
 
 
-  .vector {
+.vector {
     position: relative;
     display: inline-block;
-    width:  100%;
-  }
-  
-  .abiertos img {
-    width:  100%;
-  }
-  
-  .vector .cerrada {
+    width: 100%;
+}
+
+.abiertos img {
+    width: 100%;
+}
+
+.vector .cerrada {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 99;
-  }
-  
-  .vector:hover .cerrada {
+}
+
+.vector:hover .cerrada {
     display: inline;
-  }
+}
 
 
-  .vector:hover .abiertos{
-   opacity: 0;
-  }
+.vector:hover .abiertos {
+    opacity: 0;
+}
 
 .barrariba {
     width: 100%;
