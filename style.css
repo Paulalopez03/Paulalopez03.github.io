@@ -20,6 +20,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
+    
 }
 
 .tres {
@@ -53,11 +54,13 @@ body {
 
 }
 
+
 .dosdos {
     display: flex;
     flex-wrap: nowrap;
     width: 50%;
     justify-content: space-around;
+    min-width: 15rem;
 
 }
 
@@ -220,8 +223,10 @@ h6 {
 }
 
 .loguito {
-    width: 2%;
+    width: 1%;
     padding-left: 1%;
+    min-width: 1rem;
+
 
 
 }
