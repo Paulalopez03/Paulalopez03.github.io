@@ -120,8 +120,7 @@ padding-right: 5%;
 }
 
 .izquierda {
-    /* padding-left: 3rem;
-    padding-right: 3rem; */
+ 
 
     width: 40rem;
     margin: 0;
@@ -158,18 +157,14 @@ padding-right: 5%;
 
     background-color: rgb(39, 114, 253);
 
-
 }
 
 
 
 .derecha {
-    /* padding-left: 3rem;
-    padding-right: 3rem; */
+
     width: 40rem;
     margin: 0;
-
-
 }
 
 .artista {
@@ -299,7 +294,7 @@ footer {
 
     text-align: left;
     padding: 5px;
-    /* dejamos una separación entre borde y texto */
+    /* separación entre borde y texto */
     font-family: verdana;
     background-color: rgb(43, 43, 43);
 }
@@ -332,3 +327,4 @@ a {
     color: rgb(255, 233, 62);
 
 }
+/* cierra pie */
