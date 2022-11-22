@@ -7,6 +7,7 @@ body {
     background-image: url(img/a-100.jpg);
     background-size: auto 101vh;
     background-repeat: no-repeat;
+    /* background-size: cover; */
 
 }
 
@@ -97,26 +98,6 @@ a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 h4 {
     text-align: center;
     margin: 4px;
@@ -131,30 +112,6 @@ img .vector {
 
 
 }
-
-
-/* .vector {
-    display: inline-block;
-  }
-  
-  .vector img {
-    height: 250px;
-  }
-  
-  .vector .abi {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-  }
-  
-  .vector:hover .abi {
-    display: inline;
-  } */
-
-
-
 
 .vector {
     position: relative;
@@ -226,7 +183,5 @@ h6 {
     width: 1%;
     padding-left: 1%;
     min-width: 1rem;
-
-
 
 }
