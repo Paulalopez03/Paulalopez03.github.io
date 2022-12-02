@@ -43,9 +43,46 @@ body {
     width: 15%;
 }
 
-.dib {
+.iconbar {
     width: 7%;
+    
 }
+
+img .carpetas {
+
+    width: 100%;
+
+}
+
+.carpetaicon {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+.carpetaicon .cerrada {
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    z-index: 99;
+}
+
+.carpetaicon:hover .cerrada {
+    display: inline;
+}
+
+
+.carpetaicon:hover .abiertos {
+    opacity: 0;
+}
+
+
+
+
+
 
 .cosas {
     display: flex;
@@ -106,14 +143,13 @@ h4 {
     font-size: 2vmin
 }
 
-img .vector {
+img .carpetas {
 
     width: 100%;
 
-
 }
 
-.vector {
+.carpetas {
     position: relative;
     display: inline-block;
     width: 100%;
@@ -123,7 +159,7 @@ img .vector {
     width: 100%;
 }
 
-.vector .cerrada {
+.carpetas .cerrada {
     display: none;
     position: absolute;
     top: 0;
@@ -131,12 +167,12 @@ img .vector {
     z-index: 99;
 }
 
-.vector:hover .cerrada {
+.carpetas:hover .cerrada {
     display: inline;
 }
 
 
-.vector:hover .abiertos {
+.carpetas:hover .abiertos {
     opacity: 0;
 }
 
