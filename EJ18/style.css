@@ -24,6 +24,7 @@ main {
     min-width: 20rem;
     width: 30%;
     max-height: 20rem;
+    border: 0.2rem;
     border-color: black;
     border-style: solid;
     border-radius: 12px;
