@@ -97,14 +97,22 @@ main {
 
 /* Tipos */
 
-@font-face {
+/* @font-face {
     font-family: 'Govers Free Display';
     src: url('Goversy-Display.ttf');
+} */
+@font-face {
+    font-family: 'build';
+    src: local('build'),
+        url('build.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 #uno {
 
-    font-family: 'Govers Free Display';
+    font-family: 'build';
 
 }
 
