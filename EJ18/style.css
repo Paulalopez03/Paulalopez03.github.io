@@ -20,34 +20,56 @@ main {
 .cuadro {
     margin-top: 1.5rem;
     min-width: 20rem;
-height: 5rem;
+    height: 5rem;
     width: 100%;
-    /* max-height: 20rem; */
+
     border: 0.2rem;
     border-color: black;
     border-style: solid;
     border-radius: 12px;
-    /* overflow: scroll; */
     overflow: auto;
     white-space: nowrap;
     overflow-y: hidden;
-    /* text-align: center; */
-
-
 
 }
 
 .cuadro p {
-    font-size:4rem;
+    font-size: 3rem;
     line-height: 120%;
     padding-left: 0.8rem;
     padding-right: 0.8rem;
     margin-top: 0;
 }
+
+/* hori
+ .cuadro {
+    margin-top: 1.5rem;
+    min-width: 20rem;
+    width: 30%;
+    max-height: 20rem;
+    border: 0.2rem;
+    border-color: black;
+    border-style: solid;
+    border-radius: 12px;
+    overflow: scroll;
+    overflow-x: hidden;
+  
+} */
+
+/* hori
+ .cuadro p {
+    font-size:1.5rem;
+    line-height: 120%;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-top: 0;
+} */
+
+
 h1 {
-  margin-bottom: 0.1rem;
-margin-left: 0.8rem;
- margin-right: 0.8rem;
+    margin-bottom: 0.1rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
 }
 
 
@@ -106,7 +128,7 @@ margin-left: 0.8rem;
 @font-face {
     font-family: 'build';
     src: local('build'),
-        url('build.ttf') format('truetype');
+        url('fonts/build.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -120,7 +142,7 @@ margin-left: 0.8rem;
 
 @font-face {
     font-family: 'Galgo';
-    src: url('Galgo.ttf');
+    src: url('fonts/Galgo.ttf');
 }
 
 #dos {
@@ -130,7 +152,7 @@ margin-left: 0.8rem;
 
 @font-face {
     font-family: 'Mostera';
-    src: url('MosteraRegular.otf');
+    src: url('fonts/MosteraRegular.otf');
 }
 
 #tres {
@@ -140,7 +162,7 @@ margin-left: 0.8rem;
 
 @font-face {
     font-family: 'Solide Mirage Mono';
-    src:url('SolideMirage-Mono.otf');
+    src: url('fonts/SolideMirage-Mono.otf');
 }
 
 #cuatro {
@@ -150,7 +172,7 @@ margin-left: 0.8rem;
 
 @font-face {
     font-family: 'PicNic Regular';
-    src: url('PicNic-Regular.woff');
+    src: url('fonts/PicNic-Regular.woff');
 }
 
 #cinco {
@@ -160,8 +182,8 @@ margin-left: 0.8rem;
 
 @font-face {
     font-family: 'terminal grotesque';
-    src: url('terminal-grotesque.ttf');
-  
+    src: url('fonts/terminal-grotesque.ttf');
+
 }
 
 #seis {
