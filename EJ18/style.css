@@ -22,7 +22,7 @@ main {
     min-width: 20rem;
     height: 5rem;
     width: 100%;
-
+    /* padding-bottom: 0.8rem; */
     border: 0.2rem;
     border-color: black;
     border-style: solid;
@@ -30,15 +30,20 @@ main {
     overflow: auto;
     white-space: nowrap;
     overflow-y: hidden;
+    display: flex;
+    padding-bottom: 0.3rem;
+ 
 
 }
 
 .cuadro p {
-    font-size: 4rem;
+    font-size: 3.2rem;
     line-height: 120%;
     padding-left: 0.8rem;
     padding-right: 0.8rem;
-    margin-top: 0;
+    margin: 0;
+
+
 }
 
 /* hori
@@ -66,11 +71,11 @@ main {
 } */
 
 
-h1 {
+/* h1 {
     margin-bottom: 0.1rem;
     margin-left: 0.8rem;
     margin-right: 0.8rem;
-}
+} */
 
 
 /* width */
@@ -121,10 +126,6 @@ h1 {
 
 /* Tipos */
 
-/* @font-face {
-    font-family: 'Govers Free Display';
-    src: url('Goversy-Display.ttf');
-} */
 @font-face {
     font-family: 'build';
     src: local('build'),
