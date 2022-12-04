@@ -295,21 +295,13 @@ main {
 }
 
 
-#hoja{
+#bicho{
     font-family: 'Mostera Regular';
    
 }
 
-@font-face {
-    font-family: 'Mostera Regular';
-    src: url('fonts/MosteraRegular.ttf');
-}
 
 
-#tercero{
-    font-family: 'Mostera Regular';
-   
-}
 
 @font-face {
     font-family: 'Solide Mirage Mono';
