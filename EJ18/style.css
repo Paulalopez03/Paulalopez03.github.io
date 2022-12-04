@@ -33,9 +33,12 @@ header {
 .icono {
     width: 10%;
 }
-.fa-2x {
-    font-size: 1rem;
+
+.icono {
+    width: 10%;
 }
+
+
 
 .titulo {
     border-left: 0.2rem;
@@ -52,7 +55,7 @@ h1 {
     font-weight: 100;
     font-family: 'terminal grotesque';
     padding-bottom: 0.4vh;
-    font-size: 4vw;
+    font-size: 5vw;
     /* font-size: 1vmin; */
     margin: 0;
 }
@@ -289,12 +292,12 @@ main {
 
 @font-face {
     font-family: 'Mostera';
-    src: url('fonts/SolideMirage-Mono.otf');
+    src: url('fonts/MosteraRegular.otf');
 }
 
 
 #cueva {
-    font-family: 'Solide Mirage Mono';
+    font-family: 'Mostera Regular';
    
 }
 
