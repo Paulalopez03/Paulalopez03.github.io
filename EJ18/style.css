@@ -30,14 +30,13 @@ header {
 }
 
 
-.icono {
-    width: 10%;
-}
 
 .icono {
     width: 10%;
 }
-
+i.fa-solid  {
+   font-size: 3.5vw;
+}
 
 
 .titulo {
