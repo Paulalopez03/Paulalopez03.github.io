@@ -286,13 +286,15 @@ main {
 
 }
 
+
 @font-face {
     font-family: 'Mostera';
-    src: url('fonts/MosteraRegular.otf');
+    src: url('fonts/SolideMirage-Mono.otf');
 }
 
+
 #tres {
-    font-family: 'Mostera Regular';
+    font-family: 'Solide Mirage Mono';
    
 }
 
