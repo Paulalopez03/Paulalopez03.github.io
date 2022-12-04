@@ -31,10 +31,10 @@ header {
 
 
 .icono {
-    width: 20%;
+    width: 10%;
 }
 .fa-2x {
-    font-size: 3vw;
+    font-size: 1rem;
 }
 
 .titulo {
@@ -292,7 +292,7 @@ main {
 }
 
 #tres {
-    font-family: 'terminal grotesque';
+    font-family: 'Mostera Regular';
    
 }
 
