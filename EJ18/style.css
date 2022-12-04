@@ -290,13 +290,24 @@ main {
 
 
 @font-face {
-    font-family: 'Mostera';
+    font-family: 'Mostera Regular';
     src: url('fonts/MosteraRegular.ttf');
 }
 
 
 #tres{
     font-family: 'Mostera Regular';
+   
+}
+
+@font-face {
+    font-family: 'Krayewski Regular';
+    src: url('fonts/Krayewski.otf');
+}
+
+
+#lol{
+    font-family: 'Krayewski Regular';
    
 }
 
