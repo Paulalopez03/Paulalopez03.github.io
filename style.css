@@ -29,13 +29,14 @@ body {
 }
 
 .dos {
-    width: 60%;
+    width: 50%;
+    height: 5vw;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    border-radius: 1.5vmax 1.5vmax 0 0;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    border-radius: 1.5vw 1.5vw 0 0;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
     background-color: rgba(240, 248, 255, 0.9);
 }
 
@@ -43,9 +44,50 @@ body {
     width: 15%;
 }
 
+
 .iconbar {
-    width: 7%;
+    width: 4vw;
     
+}
+
+.button{
+    display: flex;
+}
+
+
+.iconbar:hover {
+    width: 4.8vw;
+    animation-name: dere;
+    animation-duration: 0.1000s;
+    
+}
+@keyframes dere {
+    0% {
+        width:  4vw;
+    
+    }
+
+    25% {
+        width:  4.2vw;
+
+   
+    }
+
+    50% {
+        width:  4.4vw;
+  
+    }
+
+    75% {
+        width:  4.6vw;
+     
+    }
+
+    100% {
+        width: 4.8vw;
+        /* left: 0px; */
+     
+    }
 }
 
 img .carpetas {
@@ -78,8 +120,6 @@ img .carpetas {
 .carpetaicon:hover .abiertos {
     opacity: 0;
 }
-
-
 
 
 
@@ -221,3 +261,60 @@ h6 {
     min-width: 1rem;
 
 }
+
+
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 1000ms;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 0px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.685);
+    border-radius: 5px;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
