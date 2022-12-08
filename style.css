@@ -278,10 +278,15 @@ h6 {
     display: flex;
     width: 100%;
     align-items: center;
+    transition: all 400ms ease-in-out; 
+
   }
   .overlay:target {
     visibility: visible;
     opacity: 1;
+
+
+
   }
   
   .popup {
@@ -292,7 +297,11 @@ h6 {
     width: 50%;
     height: 50%;
     position: relative;
-    transition: all 5s ease-in-out;
+    /* transition: all 5s ease-in-out;  */
+
+    
+
+    
 
   }
   
