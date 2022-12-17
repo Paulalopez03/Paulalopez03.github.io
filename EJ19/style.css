@@ -6,7 +6,12 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    li {
+    #cabeza {
+        width: 100%;
+        height: 7vh;
+    }
+
+    .cuadro {
         width: 100%;
         height: 50vh;
 
@@ -22,8 +27,12 @@ body {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    #cabeza {
+        width: 100%;
+        height: 7vh;
+    }
 
-    li {
+    .cuadro {
         width: 100%;
         height: 50vh;
 
@@ -39,7 +48,12 @@ body {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    li {
+    #cabeza {
+        width: 100%;
+        height: 7vh;
+    }
+
+    .cuadro {
         width: 100%;
         height: 50vh;
 
@@ -56,7 +70,12 @@ body {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    li {
+    #cabeza {
+        width: 100%;
+        height: 7vh;
+    }
+
+    .cuadro {
         width: 33.33333333333333%;
         height: 50vh;
 
@@ -70,7 +89,12 @@ body {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    li {
+    #cabeza {
+        width: 100%;
+        height: 7vh;
+    }
+
+    .cuadro {
         width: 33.33333333333333%;
         height: 50vh;
 
@@ -103,8 +127,7 @@ h2 {
 }
 
 #cabeza {
-    width: 100%;
-    height: 5vh;
+
     background-color: #1f1f1f;
 
 }
@@ -120,7 +143,7 @@ ul {
 
 }
 
-li {
+.cuadro {
 
     display: flex;
     flex-wrap: wrap;
@@ -181,7 +204,7 @@ img {
 
 }
 
-li:hover .overlay {
+.cuadro:hover .overlay {
     opacity: 1;
 }
 
