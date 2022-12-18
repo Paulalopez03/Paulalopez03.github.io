@@ -7,61 +7,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hola</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <header>
-
-    <div id="cabeza">
-      <ul id="barra">
-
-        <a class="logo" href="">
-
-          <h3>hola</h3>
+    <div class="topnav" id="myTopnav">
+      <a href=" #home" class="active">Logo</a>
+      <div id="apart">
+        <a href=""></a>
+        <a href=" #news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
         </a>
-        <ul class="pags">
-          <a href="">
-            <svg viewBox="0 0 400 400" id="hearttra">
-              <path id="heart-path"
-                d="M161.2 165.8c18.5-19 129.8-16.6 125.1 13.6.8 42.2-141.6 42.2-140.9 0 0-11 11.7-20.6 29.7-26.5M-679.6-78.9s-98.5-27.8-100-60.3 87.9-23 100 0c0 0 27.3-32.6 62.1-17.6.1 0 63.7 5.3-62.1 77.9z"
-                class="st0" />
-            </svg>
-            <h3>Trabajos</h3>
-          </a>
-          <a href="">
-            <svg viewBox="0 0 400 400" id="heartsob">
-              <path id="heart-path"
-                d="M161.2 165.8c18.5-19 129.8-16.6 125.1 13.6.8 42.2-141.6 42.2-140.9 0 0-11 11.7-20.6 29.7-26.5M-679.6-78.9s-98.5-27.8-100-60.3 87.9-23 100 0c0 0 27.3-32.6 62.1-17.6.1 0 63.7 5.3-62.1 77.9z"
-                class="st0" />
-            </svg>
-            <h3>Sobre mi</h3>
-          </a>
-          <a href="">
-            <svg viewBox="0 0 400 400" id="heartcont">
-              <path id="heart-path"
-                d="M161.2 165.8c18.5-19 129.8-16.6 125.1 13.6.8 42.2-141.6 42.2-140.9 0 0-11 11.7-20.6 29.7-26.5M-679.6-78.9s-98.5-27.8-100-60.3 87.9-23 100 0c0 0 27.3-32.6 62.1-17.6.1 0 63.7 5.3-62.1 77.9z"
-                class="st0" />
-            </svg>
-            <h3>Contacto</h3>
-          </a>
-        </ul>
+      </div>
 
-     
-      </ul>
+
+
     </div>
+
   </header>
   <main>
-    <!-- <h2>
-      <span style="color:red">P</span>
-      <span style="color:orange">O</span>
-      <span style="color:yellow">R</span>
-      <span style="color:green">T</span>
-      <span style="color:aquamarine">F</span>
-      <span style="color:indigo">O</span>
-      <span style="color:violet">L</span>
-      <span style="color:indigo">I</span>
-      <span style="color:violet">O</span>
-     </h2> -->
+
     <div>
       <ul id="trabajos">
         <li id="lila" class="cuadro">
@@ -93,7 +62,16 @@
 
 
   </main>
-
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 </body>
 
 </html>
