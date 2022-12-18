@@ -5,7 +5,37 @@ body {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {   svg#hearttra {
+    height: 80%;
+    position: absolute;
+    width: 20%;
+    top: -263px;
+    right:185px;
+    mix-blend-mode: screen
+}
+
+svg#heartsob {
+    height: 80%;
+    position: absolute;
+    width: 18%;
+    top: -263px;
+    right: 107px;
+    mix-blend-mode: screen
+}
+
+svg#heartcont {
+    height: 80%;
+    position: absolute;
+    width: 18%;
+    top: -263px;
+    right: 15px;
+    mix-blend-mode: screen
+}
+h3 {
+    font-size: 7pt;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
     #cabeza {
         width: 100%;
         height: 7vh;
@@ -26,7 +56,37 @@ body {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {   svg#hearttra {
+    height: 80%;
+    position: absolute;
+    width: 20%;
+    top: -278px;
+    right: 306px;
+    mix-blend-mode: screen
+}
+
+svg#heartsob {
+    height: 80%;
+    position: absolute;
+    width: 18%;
+    top: -278px;
+    right: 164px;
+    mix-blend-mode: screen
+}
+
+svg#heartcont {
+    height: 80%;
+    position: absolute;
+    width: 18%;
+    top: -278px;
+    right: 15px;
+    mix-blend-mode: screen
+}
+h3 {
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
     #cabeza {
         width: 100%;
         height: 7vh;
@@ -48,6 +108,37 @@ body {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    svg#hearttra {
+        height: 80%;
+        position: absolute;
+        width: 20%;
+        top: -420px;
+        right: 400px;
+        mix-blend-mode: screen
+    }
+
+    svg#heartsob {
+        height: 80%;
+        position: absolute;
+        width: 18%;
+        top: -420px;
+        right: 217px;
+        mix-blend-mode: screen
+    }
+
+    svg#heartcont {
+        height: 80%;
+        position: absolute;
+        width: 18%;
+        top: -420px;
+        right: 15px;
+        mix-blend-mode: screen
+    }
+    h3 {
+        font-size: 11pt;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
     #cabeza {
         width: 100%;
         height: 7vh;
@@ -70,6 +161,37 @@ body {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    svg#hearttra {
+        height: 80%;
+        position: absolute;
+        width: 20%;
+        top: -243px;
+        right: 565px;
+        mix-blend-mode: screen
+    }
+
+    svg#heartsob {
+        height: 80%;
+        position: absolute;
+        width: 18%;
+        top: -243px;
+        right: 297px;
+        mix-blend-mode: screen
+    }
+
+    svg#heartcont {
+        height: 80%;
+        position: absolute;
+        width: 18%;
+        top: -243px;
+        right: 15px;
+        mix-blend-mode: screen
+    }
+    h3 {
+        font-size: 14pt;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
     #cabeza {
         width: 100%;
         height: 7vh;
@@ -89,6 +211,37 @@ body {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    svg#hearttra {
+        height: 80%;
+        position: absolute;
+        width: 20%;
+        top: -243px;
+        right: 565px;
+        mix-blend-mode: screen
+    }
+
+    svg#heartsob {
+        height: 80%;
+        position: absolute;
+        width: 18%;
+        top: -243px;
+        right: 297px;
+        mix-blend-mode: screen
+    }
+
+    svg#heartcont {
+        height: 80%;
+        position: absolute;
+        width: 18%;
+        top: -243px;
+        right: 15px;
+        mix-blend-mode: screen
+    }h3 {
+        font-size: 14pt;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
     #cabeza {
         width: 100%;
         height: 7vh;
@@ -116,6 +269,34 @@ body {
     }
 }
 
+
+
+
+
+#heart-path {
+    stroke: #1f1f1f;
+    fill: #1f1f1f;
+    stroke-width: 2px;
+    stroke-dasharray: 350;
+    stroke-dashoffset: 350;
+    stroke-linecap: butt;
+    -webkit-transition: all 2s ease-out;
+    -moz-transition: all 2s ease-out;
+    -ms-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    transition: all 1s ease-out;
+
+}
+
+#heart-path:hover {
+    stroke: #ffffff;
+    fill: #1f1f1f;
+    stroke-dashoffset: 10;
+    stroke-dasharray: 350;
+
+}
+
+
 h2 {
     position: absolute;
     text-align: center;
@@ -126,20 +307,81 @@ h2 {
 
 }
 
-#cabeza {
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
 
+}
+
+#cabeza {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
     background-color: #1f1f1f;
 
 }
 
-ul {
+#barra {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: nowrap;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.pags {
+    padding: 0%;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#barra a {
+    list-style-type: none;
+    color: #ffffff;
+    z-index: 99;
+    padding-left: 9%;
+    padding-right: 9%;
+
+
+}
+
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+a:active {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo {
+    width: 10%;
+    text-align: center;
+
+}
+
+
+
+
+#trabajos {
     width: 100%;
     display: flex;
     padding: 0px;
     margin: 0px;
     flex-wrap: wrap;
-
-
 
 }
 
@@ -159,7 +401,6 @@ ul {
 #lila {
 
     background-color: #780AE9;
-
 
 }
 
