@@ -1,36 +1,66 @@
-/* div {
 
-   background-color: aqua;
-   font-size: 1.2em;
+.naveg {
+   background-color: rgb(253, 255, 137);
+   height: 73vh;
 
-} */
+}
+
+.naveg1 {
+   background-color: rgb(253, 255, 137);
+   height: 100vh;
+
+}
+
+.naveg3 {
+   background-color: rgb(253, 255, 137);
+   height: 93vh;
+
+}
+
+.naveg1 li {
+
+   height: 16.667vh;
+
+}
+
+.naveg3 li {
+
+   height: 16.667vh;
+
+}
+
+.naveg li {
+
+   height: 12.167vh;
+
+}
 
 ul {
    list-style-type: none;
    padding: 0;
    font-size: 2rem;
 }
-.naveg {
-   background-color: rgb(253, 255, 137);
-   height: 73vh;
 
+ul a {
+   text-decoration: none;
+   color: rgb(0, 0, 0);
 }
-.naveg1 {
-   background-color: rgb(253, 255, 137);
-   height: 100vh;
 
-}.naveg3 {
-   background-color: rgb(253, 255, 137);
-   height: 93vh;
+ul a:hover {
 
+   color: rgb(106, 105, 105);
 }
+
+
+
 .cont {
 
-   background-color:  aqua;
+   background-color: aqua;
    font-size: 1.2em;
    height: 73vh;
 
 }
+
 .cont1 {
 
    background-color: aqua;
@@ -46,6 +76,7 @@ ul {
    height: 100vh;
 
 }
+
 .pub45 {
 
    background-color: rgb(199, 255, 203);
@@ -67,6 +98,3 @@ ul {
    height: 7vh;
 
 }
-
-
-
