@@ -1,0 +1,78 @@
+/* div {
+
+   background-color: aqua;
+   font-size: 1.2em;
+
+} */
+
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+.pag1 {
+
+   background-color: aqua;
+   font-size: 1.2em;
+   height: 100vh;
+
+}
+.pag2 {
+
+   background-color: aqua;
+   font-size: 1.2em;
+   height: 73vh;
+
+}
+
+.pag3 {
+
+   background-color: aqua;
+   font-size: 1.2em;
+   height: 93vh;
+
+}
+
+.pub {
+
+   background-color: rgb(199, 255, 203);
+   font-size: 1.2em;
+   height: 100 vh;
+
+}
+
+.cont {
+
+   height: 70vh;
+
+}
+
+.header {
+   background-color: rgb(255, 214, 137);
+   height: 20vh;
+
+}
+
+.food {
+   background-color: rgb(255, 137, 196);
+   height: 7vh;
+
+}
+
+.nav1 {
+   background-color: rgb(253, 255, 137);
+   height: 100vh;
+
+}
+
+.nav3 {
+   background-color: rgb(253, 255, 137);
+   height: 95vh;
+
+}
+
+.nav {
+   background-color: rgb(253, 255, 137);
+   height: 73vh;
+
+}
