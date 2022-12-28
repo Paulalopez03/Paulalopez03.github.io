@@ -8,44 +8,53 @@
 ul {
    list-style-type: none;
    padding: 0;
+   font-size: 2rem;
 }
+.naveg {
+   background-color: rgb(253, 255, 137);
+   height: 73vh;
 
-.pag1 {
+}
+.naveg1 {
+   background-color: rgb(253, 255, 137);
+   height: 100vh;
+
+}.naveg3 {
+   background-color: rgb(253, 255, 137);
+   height: 93vh;
+
+}
+.cont {
+
+   background-color:  aqua;
+   font-size: 1.2em;
+   height: 73vh;
+
+}
+.cont1 {
 
    background-color: aqua;
    font-size: 1.2em;
    height: 100vh;
 
 }
-.pag2 {
 
-   background-color: aqua;
+.pub6 {
+
+   background-color: rgb(199, 255, 203);
+   font-size: 1.2em;
+   height: 100vh;
+
+}
+.pub45 {
+
+   background-color: rgb(199, 255, 203);
    font-size: 1.2em;
    height: 73vh;
 
 }
 
-.pag3 {
 
-   background-color: aqua;
-   font-size: 1.2em;
-   height: 93vh;
-
-}
-
-.pub {
-
-   background-color: rgb(199, 255, 203);
-   font-size: 1.2em;
-   height: 100 vh;
-
-}
-
-.cont {
-
-   height: 70vh;
-
-}
 
 .header {
    background-color: rgb(255, 214, 137);
@@ -59,20 +68,5 @@ ul {
 
 }
 
-.nav1 {
-   background-color: rgb(253, 255, 137);
-   height: 100vh;
 
-}
 
-.nav3 {
-   background-color: rgb(253, 255, 137);
-   height: 95vh;
-
-}
-
-.nav {
-   background-color: rgb(253, 255, 137);
-   height: 73vh;
-
-}
