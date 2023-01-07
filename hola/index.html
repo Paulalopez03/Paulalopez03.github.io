@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="buttons-container">
+
+        <h2>Elige colores: </h2>
+
+        <button id="red">Color rojo </button>
+
+        <button id="blue">Color azul</button>
+
+        <button id="green">Color verde</button>
+    </div>
+
+    <div class="container">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <button>Leer más...</button>
+
+    </div>
+
+    <script>
+        const redBtn = document.querySelector('#red');
+        const blueBtn = document.querySelector('#blue');
+        const greenBtn = document.querySelector('#green');
+
+        redBtn.addEventListener('click', () => {
+            document.documentElement.style.setProperty('--first-color', '#480000')
+            document.documentElement.style.setProperty('--second-color', '#ce3333')
+        });
+
+        blueBtn.addEventListener('click', () => {
+            document.documentElement.style.setProperty('--first-color', '#ababef')
+            document.documentElement.style.setProperty('--second-color', '#000099')
+        });
+
+        greenBtn.addEventListener('click', () => {
+            document.documentElement.style.setProperty('--first-color', '#2b2b2b')
+            document.documentElement.style.setProperty('--second-color', '#a6f6ae')
+        });
+
+        addEventListener('')
+
+    </script>
+
+</body>
+
+</html>

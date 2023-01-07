@@ -1,13 +1,13 @@
 
 
 function focusRed() {
-  document.getElementById('midiv').style.zIndex = 1;
-  document.getElementById('mydiv').style.zIndex = -1;
+  document.getElementById('midiv').style.zIndex = -1;
+  document.getElementById('mydiv').style.zIndex = 1;
 }
 
 function focusBlue() {
-  document.getElementById('midiv').style.zIndex = -1;
-  document.getElementById('mydiv').style.zIndex = 1;
+  document.getElementById('midiv').style.zIndex = 1;
+  document.getElementById('mydiv').style.zIndex = -1;
 }
 
 

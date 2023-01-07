@@ -323,3 +323,19 @@ h6 {
     max-height: 30%;
     overflow: auto;
   }
+
+
+
+
+
+  #mydiv  {
+ 
+    z-index: 9;
+ 
+  }
+  #midiv {
+
+  
+    z-index: 9;
+
+  }
