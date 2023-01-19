@@ -1,0 +1,172 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: #F4F4F4;
+    margin: 0%;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    top: 10vh;
+
+}
+
+.contenido {
+    width: 60%;
+    margin: auto;
+}
+
+
+
+nav{  margin-left: 2%;
+    margin-right: 2%;}
+
+
+/*abre header*/
+img {
+    width: 100%;
+    /* height: ;  */
+}
+
+/*abre botones estilo*/
+.botones {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 40px;
+}
+
+.boton a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.boton a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.boton a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.boton a:active {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*cierra botones estilo*/
+
+/*cierra header*/
+
+/*abre main*/
+h1 {
+    font-weight: lighter;
+}
+
+h2 {
+    color: gray;
+    font-size: 10pt;
+    font-weight: normal;
+}
+
+.info {
+    margin-top: 70px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.menu {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.lista {
+    list-style: none;
+    padding-left: 0;
+    color: gray;
+    font-size: 10pt;
+    font-weight: normal;
+}
+
+.lista li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+/*  abre almuadilla links: ;  */
+
+.almuadilla a:link {
+    text-decoration: none;
+    color: gray;
+}
+
+.almuadilla a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+.almuadilla a:hover {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.almuadilla a:active {
+    text-decoration: none;
+    color: gray;
+}
+
+/*  cierra almuadilla links: ;  */
+
+/*  abre hover links: ;  */
+.hover a:link {
+    text-decoration: none;
+    color: gray;
+}
+
+.hover a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+.hover a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.hover a:active {
+    text-decoration: none;
+    color: gray;
+}
+
+/*  cierra hover links: ;  */
+
+/*cierra main*/
+
+
+/*abre footer*/
+footer {
+    background-color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+}
+
+.abajo {
+    list-style: none;
+    padding-left: 0;
+    color: white;
+    font-size: 20pt;
+    font-weight: normal;
+    width: 500px;
+    margin: auto;
+}
+
+.abajo li {
+    padding-bottom: 10px;
+}
+
+/*cierra footer*/
