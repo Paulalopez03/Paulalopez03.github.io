@@ -11,6 +11,8 @@ body {
 
 }
 
+
+
 /* header */
 
 #cabeza {
@@ -249,7 +251,7 @@ a.manej {
 .cabpop {
     border-radius: 2vw 2vw 0 0;
     padding: 1% 2% 1% 2%;
-    background-color: rgba(45, 142, 226, 1);
+    background-color: rgb(80, 77, 79);
     display: flex;
 }
 
@@ -258,12 +260,44 @@ a.manej {
 #navpop {
     background-color: rgba(131, 139, 146, 1);
     border-radius: 0 0 0 2vw;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
+
 
 }
+
+/* barraladpop*/
+
+#navpop a {
+    text-decoration: none;
+
+    color: aliceblue;
+}
+
+#navpop li {
+    color: aliceblue;
+    list-style: none;
+
+    padding: 4% 2% 4% 10%;
+}
+
+
+li.links {
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+li.links:hover {
+    background-color: rgb(114, 114, 114);
+
+}
+
+#navpop ul {
+    padding: 2% 0 0 0;
+
+}
+
+
+/* barraladpop  */
 
 #cospop {
     background-color: rgba(240, 248, 255, 1);
@@ -272,7 +306,40 @@ a.manej {
 
 /* popups */
 
-/* popup1 */
+/* popupsobmi */
+
+#botsom {
+    padding: 0% 10% 0 10%;
+    border-radius: 50vw;
+    margin-top: 4%;
+    background-color: rgba(240, 248, 255, 0.4);
+    padding: 2vw 0vw 2vw 0vw;
+    border-radius: 50vw;
+    text-align: center;
+    border: none;
+
+
+}
+
+
+#botsom a {
+   text-decoration: none;
+   color: rgb(235, 229, 229);
+
+
+
+}
+#botsom a:visited {
+   
+    color: rgb(235, 229, 229);
+ 
+ 
+ 
+ }
+
+/* popupsobmi */
+
+/* popupweb */
 
 .carpetados {
     margin: 1.5rem;
@@ -289,15 +356,18 @@ a.manej {
 
 #barbusc {
     margin-top: 4%;
-    background-color:  rgba(240, 248, 255, 0.4);
-    padding: 2vw 0vw 2vw 0vw ;
+    background-color: rgba(240, 248, 255, 0.4);
+    padding: 2vw 0vw 2vw 0vw;
     border-radius: 50vw;
-   text-align: center;
-font-weight: 800;
-   color: rgb(235, 229, 229);
+    text-align: center;
+    font-weight: 800;
+    color: rgb(235, 229, 229);
+
+
+
 }
 
-/* popup1 */
+/* popuweb */
 
 
 
@@ -371,6 +441,7 @@ font-weight: 800;
         padding-left: 0vw;
 
     }
+
     h4 {
         text-align: center;
         margin: 4px;
@@ -379,6 +450,85 @@ font-weight: 800;
         padding-top: 10%;
         font-size: 4vmin
     }
+
+
+
+    /* popupsobremi */
+    #intro {
+        padding: 0% 10% 0 10%;
+        font-weight: 600;
+
+
+    }
+
+    #botsom {
+        font-size: 5vw;
+    }
+
+
+    #descri {
+        padding-top: 5%;
+
+    }
+
+
+    .consobmi {
+        padding: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    #fotoperf {
+
+        overflow: hidden;
+        border-radius: 50%;
+        border-style: solid;
+
+    }
+
+
+    #fotoperf img {
+        object-fit: fill;
+
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #present {
+        padding-top: 10%;
+        align-content: center;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #present p {
+        margin: 3% 0 0 0%;
+        line-height: normal;
+    }
+
+    #present h6 {
+        font-weight: 600;
+        font-size: 2rem;
+        margin: 0% 0% 0% 0%;
+    }
+
+    /* popupsobremi */
+
+    /* popupweb */
+    #barbusc {
+
+        font-size: 5vw;
+
+
+    }
+
+    /* popupweb */
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -412,6 +562,7 @@ font-weight: 800;
         height: 96vh;
 
     }
+
     #barpc {
         z-index: 97;
         height: 18vw;
@@ -443,7 +594,9 @@ font-weight: 800;
 
         padding-left: 0vw;
 
-    } h4 {
+    }
+
+    h4 {
         text-align: center;
         margin: 4px;
         font-weight: 500;
@@ -451,6 +604,87 @@ font-weight: 800;
         padding-top: 10%;
         font-size: 7vmin
     }
+
+
+    /* popupsobremi */
+    #intro {
+        padding: 0% 10% 0 10%;
+        font-weight: 600;
+
+
+    }
+
+    #botsom {
+        font-size: 4vw;
+    }
+
+
+    #descri {
+        padding-top: 5%;
+        padding-bottom: 20%;
+
+    }
+
+
+    .consobmi {
+        padding: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    #fotoperf {
+
+        overflow: hidden;
+        border-radius: 50%;
+        border-style: solid;
+
+    }
+
+
+    #fotoperf img {
+        object-fit: fill;
+
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #present {
+        padding-top: 10%;
+        align-content: center;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #present p {
+        margin: 3% 0 0 0% !important;
+        line-height: normal;
+        font-size: 4vw;
+
+    }
+
+    #present h6 {
+        font-weight: 600;
+        font-size: 6vw !important;
+        margin: 0% 0% 0% 0% !important;
+    }
+
+    /* popupsobremi */
+
+    /* popupweb */
+    #barbusc {
+
+        font-size: 4vw;
+
+
+    }
+
+    /* popupweb */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -493,7 +727,7 @@ font-weight: 800;
     .icones {
         width: 13.44vw;
         position: relative;
-        margin:5.35vw;
+        margin: 5.35vw;
 
     }
 
@@ -508,11 +742,10 @@ font-weight: 800;
 
         padding-left: 0vw;
 
-    } #barbusc{
-        font-size: 3vmin;
-
     }
-    
+
+
+
     h4 {
         text-align: center;
         margin: 4px;
@@ -521,6 +754,87 @@ font-weight: 800;
         padding-top: 10%;
         font-size: 3vmin
     }
+
+
+    /* popupsobremi */
+    #intro {
+        padding: 0% 10% 0 10%;
+        font-weight: 600;
+
+
+    }
+
+    #botsom {
+        font-size: 4vw;
+    }
+
+
+    #descri {
+        padding-top: 5%;
+        padding-bottom: 20%;
+
+    }
+
+
+    .consobmi {
+        padding: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    #fotoperf {
+
+        overflow: hidden;
+        border-radius: 50%;
+        border-style: solid;
+
+    }
+
+
+    #fotoperf img {
+        object-fit: fill;
+
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #present {
+        padding-top: 10%;
+        align-content: center;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #present p {
+        margin: 3% 0 0 0% !important;
+        line-height: normal;
+        font-size: 4vw;
+
+    }
+
+    #present h6 {
+        font-weight: 600;
+        font-size: 6vw !important;
+        margin: 0% 0% 0% 0% !important;
+    }
+
+    /* popupsobremi */
+
+    /* popupweb */
+    #barbusc {
+
+        font-size: 4vw;
+
+
+    }
+
+    /* popupweb */
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -568,13 +882,14 @@ font-weight: 800;
 
 
     }
+
     .icones {
         width: 14.44vw;
         position: relative;
         margin: 1rem;
 
     }
-   
+
 
     .cositas:hover {
 
@@ -587,13 +902,89 @@ font-weight: 800;
 
         padding-left: 1vw;
 
-    }h4 {
+    }
+
+    h4 {
         text-align: center;
         margin: 4px;
         font-weight: 500;
         color: rgb(0, 0, 0);
         font-size: 2vmin
     }
+
+
+    
+    /* popupsobremi */
+    #intro {
+        padding: 0% 10% 0 10%;
+        font-weight: 600;
+
+
+    }
+
+    #botsom {
+        font-size: 4vw;
+    }
+
+
+    #descri {
+        padding-top: 5%;
+        padding-bottom: 20%;
+
+    }
+
+
+    .consobmi {
+        padding: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #fotoperf {
+        height: 90%;
+        border-radius: 50%;
+        border-style: solid;
+
+    }
+
+
+    #fotoperf img {
+        object-fit: fill;
+
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #present {
+        padding-top: 0%;
+        align-content: center;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: left;
+        justify-content: flex-start;
+    }
+
+    #present p {
+        margin: 3% 0 0 10% !important;
+        line-height: normal;
+        font-size: 1vw;
+
+
+    }
+
+    #present h6 {
+        margin: 0% 0 0 10% !important;
+        font-weight: 600;
+        font-size: 3vw !important;
+
+    }
+
+    /* popupsobremi */
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -649,13 +1040,91 @@ font-weight: 800;
         animation-name: foodbar;
         animation-duration: 0.1000s;
 
-    }h4 {
+    }
+
+    h4 {
         text-align: center;
         margin: 4px;
         font-weight: 500;
         color: rgb(0, 0, 0);
         font-size: 2vmin
     }
+
+
+
+    /* popupsobremi */
+    #intro {
+        padding: 0% 10% 0 10%;
+        font-weight: 600;
+
+
+    }
+
+    #botsom {
+        font-size: 4vw;
+    }
+
+
+    #descri {
+        padding-top: 5%;
+        padding-bottom: 20%;
+
+    }
+
+
+    .consobmi {
+        padding: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #fotoperf {
+        height: 90%;
+        border-radius: 50%;
+        border-style: solid;
+
+    }
+
+
+    #fotoperf img {
+        object-fit: fill;
+
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #present {
+        padding-top: 0%;
+        align-content: center;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: left;
+        justify-content: flex-start;
+    }
+
+    #present p {
+        margin: 3% 0 0 10% !important;
+        line-height: normal;
+        font-size: 1vw;
+
+
+    }
+
+    #present h6 {
+        margin: 0% 0 0 10% !important;
+        font-weight: 600;
+        font-size: 3vw !important;
+
+    }
+
+    /* popupsobremi */
+
+  
 }
 
 
