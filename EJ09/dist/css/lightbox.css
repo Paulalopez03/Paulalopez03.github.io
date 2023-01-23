@@ -28,8 +28,9 @@ body.lb-disable-scrolling {
   display: block;
   height: auto;
   max-width: inherit;
-  max-height: none;
+
   border-radius: 3px;
+  z-index: 10000;
 
   /* Image border */
   border: 4px solid #AEE2FF;
@@ -37,13 +38,14 @@ body.lb-disable-scrolling {
 
 .lightbox a img {
   border: none;
+  z-index: 10000;
 }
 
-.lb-outerContainer {
+.lb-outerContainer {  z-index: 10000;
   position: relative;
   *zoom: 1;
   width: 250px;
-  height: 250px;
+
   margin: 0 auto;
   border-radius: 4px;
 
@@ -52,51 +54,49 @@ body.lb-disable-scrolling {
   background-color: white;
 }
 
-.lb-outerContainer:after {
+.lb-outerContainer:after {  z-index: 10000;
   content: "";
   display: table;
   clear: both;
 }
 
-.lb-loader {
+.lb-loader {  z-index: 10000;
   position: absolute;
   top: 43%;
   left: 0;
-  height: 25%;
+
   width: 100%;
   text-align: center;
   line-height: 0;
 }
 
-.lb-cancel {
+.lb-cancel {  z-index: 10000;
   display: block;
   width: 32px;
-  height: 32px;
   margin: 0 auto;
   background: url(../images/loading.gif) no-repeat;
 }
 
-.lb-nav {
+.lb-nav {  z-index: 10000;
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
   width: 100%;
-  z-index: 10;
+
 }
 
 .lb-container>.nav {
   left: 0;
 }
 
-.lb-nav a {
+.lb-nav a {  z-index: 10000;
   outline: none;
   background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
 }
 
 .lb-prev,
 .lb-next {
-  height: 100%;
+ 
   cursor: pointer;
   display: block;
 }
@@ -132,12 +132,12 @@ body.lb-disable-scrolling {
   transition: opacity 0.6s;
 }
 
-.lb-nav a.lb-next:hover {
+.lb-nav a.lb-next:hover {z-index: 10000;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
 
-.lb-dataContainer {
+.lb-dataContainer {  z-index: 10000;
   margin: 0 auto;
   padding-top: 5px;
   *zoom: 1;
@@ -146,26 +146,26 @@ body.lb-disable-scrolling {
   border-bottom-right-radius: 4px;
 }
 
-.lb-dataContainer:after {
+.lb-dataContainer:after {  z-index: 10000;
   content: "";
   display: table;
   clear: both;
 }
 
-.lb-data {
+.lb-data {  z-index: 10000;
   padding: 0 4px;
   color: #ccc;
 
 }
 
-.lb-data .lb-details {
+.lb-data .lb-details {z-index: 10000;
   width: 85%;
   float: left;
   text-align: left;
   line-height: 1.1em;
 }
 
-.lb-data .lb-caption {
+.lb-data .lb-caption {z-index: 10000;
   font-size: 17px;
   font-weight: bold;
   line-height: 1em;
@@ -173,12 +173,12 @@ body.lb-disable-scrolling {
 
 }
 
-.lb-data .lb-caption a {
+.lb-data .lb-caption a {  z-index: 10000;
   color: #4ae;
 
 }
 
-.lb-data .lb-number {
+.lb-data .lb-number {z-index: 10000;
   display: block;
   clear: left;
   padding-bottom: 1em;
@@ -186,11 +186,11 @@ body.lb-disable-scrolling {
   color: #999999;
 }
 
-.lb-data .lb-close {
+.lb-data .lb-close {  z-index: 10000;
   display: block;
   float: right;
   width: 30px;
-  height: 30px;
+
   background: url(../images/close.png) top right no-repeat;
   text-align: right;
   outline: none;
@@ -202,7 +202,7 @@ body.lb-disable-scrolling {
   transition: opacity 0.2s;
 }
 
-.lb-data .lb-close:hover {
+.lb-data .lb-close:hover {  z-index: 10000;
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;

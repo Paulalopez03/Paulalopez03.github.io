@@ -14,6 +14,25 @@ body {
 
 
 /* header */
+.botonnav button {
+    background-color: rgba(240, 248, 255, 0);
+    ;
+    border: none;
+}
+
+.dropdown-menu {
+    background-color: rgba(240, 248, 255, 0.8);
+
+    border: none;
+}
+
+a.navlink  {
+    background-color: rgba(240, 248, 255, 0);
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+
+
 
 #cabeza {
     background-color: rgba(240, 248, 255, 0.8);
@@ -194,7 +213,7 @@ ul.menuhora {
 
     top: 0;
     position: fixed;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(1px);
     background: rgba(0, 0, 0, 0.1);
     transition: opacity 1000ms;
     visibility: hidden;
@@ -264,6 +283,29 @@ a.manej {
 
 }
 
+
+
+.botones {
+    position: absolute;
+
+    font-size: 40px;
+    z-index: 99;
+}
+
+.carousel img {
+    border-radius: 0.5vw;
+    object-fit: cover;
+
+}
+
+.carousel-item img {
+    object-fit: contain;
+    width: 100%;
+}
+
+
+
+
 /* barraladpop*/
 
 #navpop a {
@@ -323,19 +365,20 @@ li.links:hover {
 
 
 #botsom a {
-   text-decoration: none;
-   color: rgb(235, 229, 229);
+    text-decoration: none;
+    color: rgb(235, 229, 229);
 
 
 
 }
+
 #botsom a:visited {
-   
+
     color: rgb(235, 229, 229);
- 
- 
- 
- }
+
+
+
+}
 
 /* popupsobmi */
 
@@ -376,6 +419,8 @@ li.links:hover {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+
     .barrita {
         z-index: 97;
 
@@ -476,6 +521,7 @@ li.links:hover {
         padding: 10%;
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
         justify-content: center;
     }
 
@@ -913,7 +959,7 @@ li.links:hover {
     }
 
 
-    
+
     /* popupsobremi */
     #intro {
         padding: 0% 10% 0 10%;
@@ -941,6 +987,11 @@ li.links:hover {
         justify-content: center;
         align-items: center;
     }
+
+
+
+
+
 
 
     #fotoperf {
@@ -1124,14 +1175,5 @@ li.links:hover {
 
     /* popupsobremi */
 
-  
+
 }
-
-
-/* carpetas movibles */
-
-.front {
-    z-index: 2;
-}
-
-/* carpetas movibles */
